@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Alvaro Estanislao Figueroa, alvarof260@gmail.com"
+    />
+    <meta
+      name="desciption"
+      content="Cambiar ya es un conversor de divisas desarrollado por Alvaro Estanislao Figueroa"
+    />
+    <title>CambiarYa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header" id="top">
+      <a class="header__logo title-medium" href="#top">SWITSH</a>
+      <nav class="header__navbar navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Inicio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Preguntas Frecuentes</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Conversor Divisas</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="header__right">
+        <button class="btn-fill label-medium">Contacto</button>
+        <button class="toggle-btn" onclick="toggleNavbar()">
+          <svg
+            class="open"
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+            />
+          </svg>
+
+          <svg
+            class="close"
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </section>
+    </header>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+

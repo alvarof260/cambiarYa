@@ -1,0 +1,42 @@
+.btn-fill {
+  background: linear-gradient(to right, #5c3db5, #6b41eb);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: var(--color-headline);
+  transition: transform 0.2s ease, filter 0.3s ease, opacity 0.3s ease;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.btn-fill:where(:hover, :focus) {
+  filter: brightness(1.2);
+  opacity: 0.9;
+}
+
+.btn-fill:active {
+  filter: brightness(0.9);
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+.btn-border {
+  padding: 8px 16px;
+  border-radius: 7px;
+  background-color: transparent;
+  border: 2px solid var(--color-btn);
+  color: var(--color-headline);
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+}
+
+/* Efecto en hover y focus */
+.btn-border:where(:hover, :focus) {
+  background-color: var(--color-btn);
+}
+
+/* Efecto en estado active */
+.btn-border:active {
+  opacity: 0.9;
+  filter: brightness(0.9);
+}
