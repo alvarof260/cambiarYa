@@ -1,6 +1,6 @@
 .btn-fill {
   background: linear-gradient(to right, #5c3db5, #6b41eb);
-  padding: 8px 16px;
+  padding: 10px 16px;
   border: none;
   border-radius: 7px;
   cursor: pointer;
@@ -20,7 +20,7 @@
 }
 
 .btn-border {
-  padding: 8px 16px;
+  padding: 10px 16px;
   border-radius: 7px;
   background-color: transparent;
   border: 2px solid var(--color-btn);
