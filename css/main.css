@@ -3,6 +3,7 @@
 @import url("./components/boton.css");
 @import url("./components/header.css");
 @import url("./components/hero.css");
+@import url("./components/faq.css");
 
 * {
   padding: 0;
