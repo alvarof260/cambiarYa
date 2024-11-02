@@ -43,6 +43,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  color: var(--color-headline);
 }
 
 @media screen and (max-width: 768px) {
@@ -64,12 +65,14 @@
     opacity: 0; /* Inicialmente oculto */
     pointer-events: none; /* Evitar interacciones cuando está oculto */
     transition: opacity 0.3s ease, transform 0.3s ease; /* Cambiar el orden para una transición más suave */
+    backdrop-filter: blur(10px);
   }
 
   .navbar.active {
     opacity: 1; /* Visible */
     transform: translateX(-50%) translateY(0); /* Sin desplazamiento al activarse */
     pointer-events: auto; /* Permitir interacciones cuando está visible */
+    z-index: 999;
   }
 
   .navbar__list {

@@ -2,6 +2,7 @@
 @import url("./tipografia.css");
 @import url("./components/boton.css");
 @import url("./components/header.css");
+@import url("./components/hero.css");
 
 * {
   padding: 0;
@@ -12,13 +13,13 @@
   --font-family-base: "Poppins", Arial, Helvetica, sans-serif;
 
   /* Tamaños de texto */
-  --font-size-headline-medium: 3rem;
-  --font-size-title-large: 2.75rem;
-  --font-size-title-medium: 2.5rem;
-  --font-size-title-small: 2rem;
-  --font-size-body-large: 1.75rem;
-  --font-size-body-medium: 1.5rem;
-  --font-size-label-medium: 1rem;
+  --font-size-headline-medium: 2.5rem; /* Reducción para evitar ser muy grande */
+  --font-size-title-large: 2.25rem;
+  --font-size-title-medium: 2rem;
+  --font-size-title-small: 1.75rem;
+  --font-size-body-large: 1.5rem;
+  --font-size-body-medium: 1.25rem;
+  --font-size-label-medium: 0.875rem;
 
   /* Pesos de fuente */
   --font-weight-bold: 700;
@@ -47,4 +48,23 @@ body {
   font-family: var(--font-family-base);
   background-color: var(--color-background);
   transition: backdrop-filter 0.3s ease;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.main-content {
+  padding: 25px;
+}
+
+/* Ajustes para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  :root {
+    --font-size-headline-medium: 2rem;
+    --font-size-title-large: 1.75rem;
+    --font-size-title-medium: 1.5rem;
+    --font-size-title-small: 1.25rem;
+    --font-size-body-large: 1.125rem;
+    --font-size-body-medium: 1rem;
+    --font-size-label-medium: 0.875rem;
+  }
 }
