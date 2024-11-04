@@ -91,7 +91,7 @@
           <div class="icon-card">
             <svg
               height="40"
-              widht="40"
+              width="40"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -110,7 +110,7 @@
           <div class="icon-card">
             <svg
               height="40"
-              widht="40"
+              width="40"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -129,7 +129,7 @@
           <div class="icon-card">
             <svg
               height="40"
-              widht="40"
+              width="40"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -227,7 +227,9 @@
           <button id="swap-currencies">⇄</button>
 
           <div class="converter-output">
-            <label for="converted" class="label-medium label">Convertido a</label>
+            <label for="converted" class="label-medium label"
+              >Convertido a</label
+            >
             <div class="input-group">
               <input
                 type="text"
@@ -244,10 +246,90 @@
             </div>
           </div>
 
-          <p id="conversion-rate" class="body-medium">1,000 € EUR = <span class="conversion-rate-span">1,083</span> $ USD</p>
+          <p id="conversion-rate" class="body-medium">
+            1,000 € EUR = <span class="conversion-rate-span">1,083</span> $ USD
+          </p>
         </form>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <section class="footer-section">
+          <h4 class="footer-title">Sobre Nosotros</h4>
+          <p class="footer-text">
+            Ofrecemos conversión de divisas precisa y rápida.
+          </p>
+        </section>
+
+        <section class="footer-section">
+          <h4 class="footer-title">Links Rápido</h4>
+          <ul class="footer-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+            <li><a href="#">Conversor Divisas</a></li>
+          </ul>
+        </section>
+
+        <section class="footer-section">
+          <h4 class="footer-title">Seguirnos</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"
+              ><svg
+                data-testid="geist-icon"
+                height="20"
+                stroke-linejoin="round"
+                viewBox="0 0 16 16"
+                width="16"
+                style="color: currentcolor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M9.00319 15.9377C12.948 15.4442 16 12.0785 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 11.8172 2.67341 15.0099 6.25 15.808V10.4303H4.5V8H6.25V6.93969C6.25 4.22193 7.28461 2.96364 9.95128 2.96364C10.4559 2.96364 11.3277 3.06264 11.6854 3.16164V5.37163C11.497 5.35247 11.168 5.34289 10.7625 5.34289C9.45307 5.34289 9 5.8379 9 7.12812V8H11.5577L11.1106 10.4303H9.00319V15.9377Z"
+                  fill="currentColor"
+                ></path></svg
+            ></a>
+            <a href="#" aria-label="Twitter"
+              ><svg
+                data-testid="geist-icon"
+                height="20"
+                stroke-linejoin="round"
+                viewBox="0 0 16 16"
+                width="16"
+                style="color: currentcolor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M1.60022 2H5.80022L8.78759 6.16842L12.4002 2H14.0002L9.5118 7.17895L14.4002 14H10.2002L7.21285 9.83158L3.60022 14H2.00022L6.48864 8.82105L1.60022 2ZM10.8166 12.8L3.93657 3.2H5.18387L12.0639 12.8H10.8166Z"
+                  fill="currentColor"
+                ></path></svg
+            ></a>
+            <a href="#" aria-label="Youtube"
+              ><svg
+                data-testid="geist-icon"
+                height="20"
+                stroke-linejoin="round"
+                viewBox="0 0 16 16"
+                width="16"
+                style="color: currentcolor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M13.4695 3.39273C14.0722 3.55407 14.5459 4.02773 14.7073 4.63046C14.9988 5.72183 15 8.00023 15 8.00023C15 8.00023 15 10.2786 14.7073 11.37C14.5459 11.9728 14.0722 12.4464 13.4695 12.6077C12.3782 12.9005 7.99998 12.9005 7.99998 12.9005C7.99998 12.9005 3.62183 12.9005 2.53045 12.6077C1.92773 12.4464 1.45407 11.9728 1.29272 11.37C1 10.2786 1 8.00023 1 8.00023C1 8.00023 1 5.72183 1.29272 4.63046C1.45407 4.02773 1.92773 3.55407 2.53045 3.39273C3.62183 3.10001 7.99998 3.10001 7.99998 3.10001C7.99998 3.10001 12.3782 3.10001 13.4695 3.39273ZM10.2362 8.00046L6.59906 10.1002V5.90068L10.2362 8.00046Z"
+                  fill="currentColor"
+                ></path></svg
+            ></a>
+          </div>
+        </section>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Currency Converter. All rights reserved.</p>
+      </div>
+    </footer>
 
     <script src="./js/main.js"></script>
   </body>

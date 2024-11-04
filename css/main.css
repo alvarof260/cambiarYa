@@ -5,6 +5,7 @@
 @import url("./components/hero.css");
 @import url("./components/faq.css");
 @import url("./components/conversor.css");
+@import url("./components/footer.css");
 
 * {
   padding: 0;
